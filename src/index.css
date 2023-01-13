@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-active{
+    @apply bg-black text-white outline-none ring ring-black/20 transition-colors;
+}
+
